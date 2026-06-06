@@ -13,7 +13,7 @@ export default function Header({
             {/* タイトルエリア */}
             <View>
                 <Text style={{
-                    fontSize: 24,
+                    fontSize: 28,
                     fontWeight: "bold",
                     color: "#F97316",
                 }}>
@@ -31,10 +31,11 @@ export default function Header({
 
 const styles = StyleSheet.create({
     container: {
+        
         flexDirection: "row",
         justifyContent: "space-between",
         paddingHorizontal: 16,
-        paddingVertical: 16,
+        paddingVertical: 12,
         alignItems: "center",
         backgroundColor: "#FFF3E6",
 

@@ -1,5 +1,5 @@
 import Header from '@/components/common/Header';
-import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
+import { Ionicons } from "@expo/vector-icons";
 import { Pressable, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -13,9 +13,9 @@ export default function HomeScreen() {
       <Header 
         actions={
           <Pressable>
-            <MaterialCommunityIcons 
-              name="bell-outline"
-              size={24}
+            <Ionicons
+              name="notifications-outline"
+              size={28}
               color="#333"
             />
           </Pressable>
